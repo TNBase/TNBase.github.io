@@ -2,7 +2,7 @@
 ## Basic Configuration
 ## -----------------------------------------------
 
-baseurl = "https://TNBase.github.io"
+baseurl = "https://tnbase.github.io"
 title = "TyTN"
 theme = "hugo-story"
 
