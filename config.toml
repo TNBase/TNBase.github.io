@@ -1,0 +1,28 @@
+## -----------------------------------------------
+## Basic Configuration
+## -----------------------------------------------
+
+title = "TyTN"
+theme = "hugo-story"
+
+
+## -----------------------------------------------
+## Hugo Built-in Features
+## -----------------------------------------------
+
+disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+# googleAnalytics = "your-google-analytics-id"
+
+
+## -----------------------------------------------
+## Site Parameters
+## -----------------------------------------------
+
+[Params]
+  description = "TyTN is an AI company bringing quantum mechanics to the edge."
+  logo = "images/banner.jpg"
+  favicon = true
+
+[Params.social]
+  github = "https://github.com/TNBase"
+  email = "tytn.uk@gmail.com"
