@@ -2,10 +2,8 @@
 ## Basic Configuration
 ## -----------------------------------------------
 
-baseurl = "https://tnbase.github.io"
 title = "TyTN"
 theme = "hugo-story"
-
 
 ## -----------------------------------------------
 ## Hugo Built-in Features
