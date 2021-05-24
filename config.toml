@@ -19,7 +19,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section"]
 ## -----------------------------------------------
 
 [Params]
-  description = "TyTN is an AI company bringing quantum mechanics to the edge."
+  description = "TyTN is the AI company bringing quantum mechanics to the edge."
   logo = "images/banner.jpg"
   favicon = true
 
