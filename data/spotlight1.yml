@@ -5,6 +5,6 @@ title : "Smaller AI"
 content: |
   AI is too big. We're going to make it smaller. 
 button: 
-    label: "Our Technology"
-    link: "#items"
+    label: "our technology"
+    link: "#"
 image: "images/spotlight03.jpg"

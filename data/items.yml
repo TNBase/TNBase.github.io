@@ -6,15 +6,15 @@ style: "style1 medium onscroll-fade-in"
 items:
   # feature item loop
   - name : "One"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit."
+    content : "Drop-in replacement for standard tools."
     style : "style2 major fa-gem"
 
   # feature item loop
   - name : "Two"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit."
+    content : "Orders of magnitude reductions in parameters. "
     style : "solid style2 major fa-save"
     
   # feature item loop
   - name : "Three"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit."
+    content : "Stacks with current methods."
     style : "solid style2 major fa-chart-bar"
