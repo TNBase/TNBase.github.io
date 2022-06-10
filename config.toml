@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://tytn.ai"
+baseURL = "https://tnbase.github.io"
 title = "TyTN.ai"
 theme = "twenty-twenty-hugo"
 languageName = "En"
