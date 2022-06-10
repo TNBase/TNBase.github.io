@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://fergusbarratt.github.io"
+baseURL = "http://tytn.ai"
 title = "TyTN.ai"
 theme = "twenty-twenty-hugo"
 languageName = "En"
