@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseURL = "https://fergusbarratt.github.io"
-title = "TyTN.ai"
+baseURL = "https://demo.gethugothemes.com/twenty-twenty/site/"
+title = "Twenty Twenty Hugo"
 theme = "twenty-twenty-hugo"
 languageName = "En"
 languageCode = "en-us"
@@ -37,46 +37,31 @@ name = "Home"
 URL = "/"
 weight = 1
 
-#[[menu.main]]
-#name = "About"
-#URL = "about/"
-#weight = 2
+[[menu.main]]
+name = "About"
+URL = "about/"
+weight = 2
 
-#[[menu.main]]
-#name = "Blog"
-#URL = "blog/"
-#weight = 3
+[[menu.main]]
+name = "Blog"
+URL = "blog/"
+weight = 3
 
 [[menu.main]]
 name = "Contact"
 URL = "contact/"
-weight = 2
-
-[[menu.main]]
-name = "TinyTN"
-URL = "tinytn/"
-weight = 3
-
-[[menu.main]]
-name = "About us"
-URL = "about/"
 weight = 4
+
+[[menu.main]]
+name = "Sample Page"
+URL = "sample-page/"
+weight = 5
 
 # only desktop menu
 [[menu.desktop]]
 name = "Contact"
 URL = "contact/"
 weight = 1
-
-[[menu.desktop]]
-name = "TinyTN"
-URL = "tinytn/"
-weight = 2
-
-[[menu.desktop]]
-name = "About us"
-URL = "about/"
-weight = 3
 
 
 #################### default parameters ################################
@@ -87,7 +72,8 @@ author = "Themefisher"
 
 # favicon
 [params.favicon]
-favicon = "images/2020-landscape-1-2.png"
+favicon = "images/favicon.png"
+
 # cookies
 [params.cookies]
 enable = true
@@ -95,33 +81,24 @@ expire_days = 2
 
 # banner
 [params.banner]
-heading = "TyTN.ai"
-image = "images/pexels-pixabay-270549.jpg"
-
-[params.about]
-fergus_image = "images/fergus_image.jpg"
-jamie_image = "images/jamie_image.jpg"
-lewis_image = "images/lewis_image.jpg"
-meryem_image = "images/150.png"
-fergus_content = "PhD"
-
+heading = "The New UMoMA Opens its Doors"
+image = "images/2020-landscape-1-2.png"
 
 # blog
 [params.blog]
-enable = false
-heading = "Blog"
+heading = "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
 
 # call to action
 [params.call_to_action]
 enable = true
-title = "Get started with TyTN today"
-content = "TyTN's proprietary AI compression pipeline is available today. Contact us to see how we can work with you to deliver radically more efficient deep learning models."
+title = "Contact us for more information."
+content = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis"
 button_label = "Contact Us"
 button_url = "contact/"
 
 # gallery
 [params.gallery]
-enable = false
+enable = true
 
 [[params.gallery.gallery_item]]
 image = "images/2020-square-2.png"
@@ -132,18 +109,17 @@ image = "images/2020-square-1.png"
 
 # footer
 [params.footer]
-title = "About Us"
-content = "AI compression inspired by quantum mechanics research"
+title = "About This Site"
+content = "This may be a good place to introduce yourself and your site or include some credits."
 address = "123 Main Street <br> New York, NY 10001"
-#hours = ""
-#copyright = "Copyright &copy; 2021 a hugo theme by [themefisher](https://themefisher.com/hugo-themes/) ported from [WordPress Twenty Twenty](https://github.com/WordPress/twentytwenty)"
+hours = "Monday–Friday: 9:00AM–5:00PM <br> Saturday & Sunday: 11:00AM–3:00PM"
+copyright = "Copyright &copy; 2021 a hugo theme by [themefisher](https://themefisher.com/hugo-themes/) ported from [WordPress Twenty Twenty](https://github.com/WordPress/twentytwenty)"
 
 ############################# social site ########################
 [params.social]
-#github = '#'
-#yelp = "#"
-#facebook = "#"
-#twitter = "#"
-#instagram = "#"
-#email = "mailto:tytn.uk@gmail.com"
-#linkedin = "#"
+yelp = "#"
+facebook = "#"
+twitter = "#"
+instagram = "#"
+email = "#"
+linkedin = "#"
